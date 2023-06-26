@@ -1,3 +1,14 @@
-// Mediconnect app, a health care app for patients and doctors to keep patients records
-// Pharmacy can also use this app to keep records patients and prescriptions 
+// Mediconnect app
+import React from 'react';
+import './App.css';
+import Dashboard from './components/Dashboard';
+
+function App() {
+    return (
+        <div className="App">
+            <Dashboard />
+        </div>
+    );
+}
+export default App;
 
